@@ -17,9 +17,13 @@
 }
 
 body {
-	font-size: 140%;
+	font-size: 120%;
 	font-family: serif;
 	padding: 6vw;
+}
+
+header {
+	text-align: center;
 }
 
 h1 {
@@ -49,4 +53,11 @@ ul li a:focus {
 	background: ghostwhite;
 	outline-color: blue;
 	color: blue;
+}
+
+small {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	color: gray;
 }

@@ -5,18 +5,18 @@ window.sketch = function(p) {
 	};
 
 	p.draw = function() {
-		p.background(40,112,61,255);
+		p.background(135,201,236,255);
 		
 		p.rectMode(p.RADIUS);
-		p.fill(26,133,132,255);
+		p.fill(196,196,194,255);
 		p.square(94, 102, 74);
 		
 		p.rectMode(p.RADIUS);
-		p.fill(157,156,147);
+		p.fill(255,250,244,255);
 		p.square(94, 108, 54);
 		
 		p.rectMode(p.CENTER);
-		p.fill(224,178,59,255);
+		p.fill(254,226,18,255);
 		p.square(94, 116, 76);
 	};
 };

@@ -61,3 +61,39 @@ small {
 	justify-content: flex-end;
 	color: gray;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Semi-transparent background for the modal */
+}
+
+.modal-content {
+    width: 100%; /* Adjust width as needed */
+    height: 80vh; /* Use viewport height to limit the modal content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* No background color */
+}
+
+.close {
+    color: white; /* Changed from #aaa to white */
+    float: right;
+	padding: 0 2rem;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: gainsboro;
+    text-decoration: none;
+    cursor: pointer;
+}

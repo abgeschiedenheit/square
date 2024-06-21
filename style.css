@@ -59,7 +59,7 @@ small {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-	color: gray;
+	color: #595959;
 }
 
 .modal {
